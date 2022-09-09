@@ -1,20 +1,21 @@
 import express from 'express';
 //import Game from './models/games.js';
 //import User from './models/users.js';
-import bodyParser from 'body-parser';
+//import bodyParser from 'body-parser';
 //import jwt from 'jsonwebtoken';
 
 //const jwtSceret = '1234567890';
 
 const api = express();
-api.use(bodyParser.urlencoded({ extended: true }));
-api.use(bodyParser.json());
+//api.use(bodyParser.urlencoded({ extended: true }));
+//api.use(bodyParser.json());
 
 const port = process.env.PORT || 8080;
 
-api.get('/', (req, res) => {
+api.get("/", (req, res) => {
     send.json({message: "Welcome to the API"});
 });
+
 /*
 api.post("/game", (req, res) => {
     var { name, price, data} = req.body;
