@@ -45,7 +45,7 @@ api.put("/game/:id", (req, res) => {
         data: data
     }, {
         where: {id: id}
-    }).then(games =>{
+    }).then(() =>{
         res.statusCode = 200;
         res.json({message: "Game updated"});
     }).catch(err => {
