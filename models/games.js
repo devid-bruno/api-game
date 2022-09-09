@@ -20,6 +20,6 @@ const Game = connect.define('games', {
 });
 
 
-Game.sync({force: true});
+//Game.sync({force: true});
 
 export default Game;
