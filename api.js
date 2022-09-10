@@ -1,8 +1,8 @@
 import express from 'express';
-import Game from './models/games.js';
-import User from './models/users.js';
+//import Game from './models/games.js';
+//import User from './models/users.js';
 import bodyParser from 'body-parser';
-import jwt from 'jsonwebtoken';
+//import jwt from 'jsonwebtoken';
 
 const jwtSceret = '1234567890';
 
