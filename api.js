@@ -16,7 +16,7 @@ api.get("/", (req, res) => {
     send.json({message: "Welcome to the API"});
 });
 
-
+/*
 api.post("/game", (req, res) => {
     var { name, price, data} = req.body;
 
@@ -163,5 +163,5 @@ api.post("/auth", (req, res) => {
     }
     
 });
-
+*/
 api.listen(port, () => {});
