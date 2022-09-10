@@ -1,8 +1,8 @@
 import sequelize, { Sequelize } from 'sequelize';
 
-var db = 'heroku_630876c58d7d8ef';
+var db = 'heroku_b62f78d788e6a28';
 
-const connect = new Sequelize(`${db}`, 'b8878e9c187db7', 'dc2f5a9c', {
+const connect = new Sequelize(`${db}`, 'b1af269f67edb7', 'cc378950', {
     host: 'us-cdbr-east-06.cleardb.net',
     dialect: 'mysql',
     timezone: '-03:00'
